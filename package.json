@@ -4,7 +4,8 @@
   "description": "Game called pong that was created to practice my testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch server server/index & webpack --watch",
+    "watch": "nodemon -e js,jsx -x npm test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/Pauline122112/Test-Driven-Pong/issues"
   },
-  "homepage": "https://github.com/Pauline122112/Test-Driven-Pong#readme"
+  "homepage": "https://github.com/Pauline122112/Test-Driven-Pong#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
