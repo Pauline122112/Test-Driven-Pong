@@ -4,7 +4,7 @@
   "description": "Game called pong that was created to practice my testing",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch index & webpack --watch",
+    "start": "nodemon --watch server/index & webpack --watch",
     "watch": "nodemon -e js,jsx -x npm test"
   },
   "repository": {
@@ -17,6 +17,7 @@
     "url": "https://github.com/Pauline122112/Test-Driven-Pong/issues"
   },
   "homepage": "https://github.com/Pauline122112/Test-Driven-Pong#readme",
+
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
