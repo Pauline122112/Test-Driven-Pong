@@ -2,7 +2,7 @@ import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
 import DefaultPage from './DefaultPage'
-import AboutMe from './AboutMe'
+import Pong from './Pong'
 import Blog from './Blog'
 import Contact from './Contact'
 import WebDesign from './WebDesign'
@@ -14,7 +14,7 @@ const App = () => (
     <Router>
       <div>
         <Route exact path='/' component={DefaultPage} />
-        <Route path='/AboutMe' component={AboutMe} />
+        <Route path='/Pong' component={Pong} />
         <Route path='/Blog' component={Blog} />
         <Route path='/Contact' component={Contact} />
         <Route path='/WebDesign' component={WebDesign} />

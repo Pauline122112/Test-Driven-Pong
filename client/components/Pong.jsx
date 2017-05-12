@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const AboutMe = () => (
+const Pong = () => (
   <div className='container'>
    <h1>Test-Driven-Pong</h1>
      <Link to='/'>
@@ -11,4 +11,4 @@ const AboutMe = () => (
   </div>
 )
 
-export default AboutMe
+export default Pong
