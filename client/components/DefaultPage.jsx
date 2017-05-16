@@ -8,36 +8,36 @@ const DefaultPage = () => (
 
   <div className='AboutMe'>
      <Link to='/AboutMe'>
-           <img src='' alt='About Me' />
+           <img src='' alt='How to play pong' />
      </Link>
   </div>
 
   <div className='Blog'>
      <Link to='/Blog'>
-           <img src='' alt='Blog' />
+           <img src='' alt='History of Pong' />
      </Link>
   </div>
 
   <div className='Contact'>
      <Link to='/Contact'>
-           <img src='' alt='Contact Me' />
+           <img src='' alt='Why I chose to create this game' />
      </Link>
   </div>
 
   <div className='WebDesign'>
      <Link to='/WebDesign'>
-           <img src='' alt='Web Design' />
+           <img src='' alt='Other games' />
      </Link>
   </div>
 
   <div className='GraphicDesign'>
      <Link to='/GraphicDesign'>
-           <img src='' alt='Graphic Design' />
+           <img src='' alt='Contact me' />
      </Link>
   </div>
   <div className='WebDevelopment'>
      <Link to='/WebDevelopment'>
-           <img src='' alt='Web Development' />
+           <img src='' alt='Comments' />
      </Link>
   </div>
 
