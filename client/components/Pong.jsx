@@ -46,6 +46,9 @@ document.addEventListener("mousemove", mouseMoveHandler, false);
 
 //Anchoring the paddle movement using the mouse, mouse interaction within the game
 
+$(function() {
+
+
 function mouseMoveHandler(e){
   var relativeX = e.clientX - canvas.offsetLeft;
   if(relativeX > 0 && relativeX < canvas.width){
@@ -179,6 +182,7 @@ function draw() {
     y += dy;
     requestAnimationFrame(draw);
 }
+})
 
 draw();
 
